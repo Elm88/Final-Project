@@ -32,13 +32,36 @@ The dataset used in this analysis is available on Kaggle:
 
 This repository is organized as follows:
 
-- **Dashboard Screenshots** – Images of the interactive dashboard.  
-- **Data Cleaning** – Scripts or notes on data preprocessing.  
-- **Dashboard Folder** – Folder with Power BI `.txt` file.  
-- **.gitignore** – Ignored files.
-- **requirements.txt** - Lists all Python packages needed to run this project.
-- **Webscraping csv file** - CSV file containing data scraped form the BestPrice.gr website.
-- **README.md** – Project documentation.
+- **Dashboard Screenshots/**  
+  Contains images of the interactive Power BI dashboard.
+
+- **Dashboard/**  
+  The full interactive dashboard can be accessed [here](https://drive.google.com/drive/folders/13zyAhoXBpONW4jJJrmVqj48LrOJRjRkQ?usp=share_link)
+
+- **Data/** 
+  - **raw/**  
+    Contains the original CSV datasets before any cleaning or preprocessing.
+    - `raw_sales_data.csv`
+    - `raw_competitor_pricing.csv`
+
+  - **cleaned/**  
+    Contains cleaned and processed CSV files used for analysis and visualization.
+    - `clean_sales_data.csv`
+    - `clean_competitor_pricing.csv`
+
+- **Scripts/**
+  - `web_scraping.py` – Script used to scrape competitor pricing data.
+  - `data_cleaning.py` – Script used to clean and preprocess raw datasets.
+
+- **requirements.txt**  
+  Lists all Python packages required to run the web scraping and data cleaning scripts.
+
+- **.gitignore**  
+  Specifies files and folders ignored by Git.
+
+- **README.md**  
+  Project documentation and overview.
+
 
 ---
 
